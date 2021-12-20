@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Algoritmo simple JS</title>
+</head>
+
+<body>
+
+  <script>
+    let nombreBot="Bot8";
+    let presentacion = prompt("Bienvenido! por favor ingrese su nombre");
+    alert("Hola "+presentacion+"! "+"mi nombre es "+nombreBot);
+    let edad = prompt("Por favor ingresa tu anio de nacimiento");
+    let edadInt = 2021 - parseInt(edad);
+    alert("Usted tiene "+ edadInt+ " anios");
+
+    
+  </script>
+</body>
+
+</html>
